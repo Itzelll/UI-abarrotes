@@ -1,0 +1,23 @@
+/* Inicio.css */
+.inicio {
+    display: flex;
+    height: 100vh; /* Establece la altura al 100% de la ventana */
+  }
+  
+  .imagen-izquierda {
+    flex: 1; /* Toma el 50% del espacio disponible */
+    padding: 20px; /* Agrega un espacio alrededor de la imagen */
+  }
+  
+  .imagen-izquierda img {
+    width: 100%; /* Ajusta la imagen al 100% del contenedor */
+    height: auto; /* Mantiene la proporción original de la imagen */
+  }
+  
+  .contenido-derecha {
+    flex: 1; /* Toma el 50% del espacio disponible */
+    padding: 20px; /* Agrega un espacio alrededor del contenido */
+  }
+  
+  /* Estilos adicionales según sea necesario */
+  

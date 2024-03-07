@@ -45,7 +45,7 @@ const Navbar = () => {
           </a>
           {showVentasMenu && (
             <ul className="submenu" onClick={handleMenuClose}>
-              <li><a href="#" className="submenu-link">Listado ventas</a></li>
+              <li><a href="#" className="submenu-link">Crear venta</a></li>
             </ul>
           )}
         </li>
